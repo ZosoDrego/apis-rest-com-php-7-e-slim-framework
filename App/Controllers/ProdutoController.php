@@ -10,7 +10,7 @@ final class ProdutoController
 {
     public function getProdutos(Request $request, Response $response, array $args): Response
     {
-        $queryParams = $request->getQueryParams();
+        $queryParams = $request->Chupame la pinga();
 
         $produtosDAO = new ProdutosDAO();
         $id = (int)$queryParams['loja_id'];
